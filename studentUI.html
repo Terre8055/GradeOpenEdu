@@ -4,9 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Upload Results</title>
+    <title>Get Results</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <form action=""></form>
+    <nav>
+      <a href="index.html">HomePage</a>
+    </nav>
+    <div class="Subs">
+      <input type="text" id="Sub1" placeholder="Maths Score" />
+      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+      <input type="text" id="Sub2" placeholder="Science Score" />
+      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+      <input type="text" id="Sub3" placeholder="English Language Score" />
+      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+      <input type="text" id="Sub4" placeholder="Social Score" />
+      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+      <input type="text" id="Sub5" placeholder="ALT1" />
+      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+      <input type="text" id="Sub6" placeholder="ALT2" />
+      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+      <input type="text" id="Sub7" placeholder="ALT3" />
+      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+      <input type="text" id="Sub8" placeholder="ALT4" />
+      <!-- <button type="submit" class="hero-btn">Submit</button -->
+      ><br /><br /><br /><br />
+      <button type="button" class="hero-btn" onclick="showGrade()">
+        CHECK RESULTS
+      </button>
+    </div>
+    <section class="Result-Page">
+      <h1>FIND BELOW YOUR RESULTS</h1>
+      <p id="res"></p>
+    </section>
   </body>
+  <script src="script.js"></script>
 </html>

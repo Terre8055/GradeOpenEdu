@@ -158,3 +158,56 @@ ul li:hover::after {
 .fa-heart-o {
     color: #f44336;
 }
+
+
+/* ------------------sTUDui------------------- */
+/* .Core-Subs {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.Core-Subs.input {
+    display: inline-block;
+} */
+
+.Subs {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    size: 50px;
+    height: 100vh;
+    background-color: #777;
+  }
+
+#Sub {
+    width: 300px;
+    height: 40px;
+   
+}
+
+#res {
+    min-height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Education.png); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-size: large ;
+    font-weight: bolder;
+}
+
+.Result-Page {
+    width: 90%;
+    color: black;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+    justify-content: center;
+}
+  
