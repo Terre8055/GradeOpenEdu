@@ -25,20 +25,30 @@
       <div class="text-box">
         <h1>Welcome to the Premium Student Grade Checker App</h1>
         <p>Making checking of grades simple and hussle-free for everyone</p>
-        <a href="" class="hero-btn">Continue</a>
+        <!-- <input
+          type="text"
+          oninput="token()"
+          class="Index"
+          placeholder="Enter OpenEdu Number"
+        /> -->
+        <!-- <button class="hero-btn">Continue</button> -->
+        <form>
+          <!-- <label for="password">Password:</label><br /> -->
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter OpenEdu Number"
+            class="Index"
+          />
+          <button onclick="validatePassword()" class="hero-btn">
+            Continue
+          </button>
+        </form>
       </div>
     </section>
     <section class="How-To">
       <h1>How to Navigate the Checker</h1>
-      <p>
-        The Checker is a free web app sponsored by openEdu to enable Ghanaian
-        students access end of term results in a simple, efficient and
-        comfortable manner. <br />
-        Our goal is to ensure students have their results stored in one place as
-        a portfolio. This we believe will help to access any type of scores
-        needed in the future such as applying for tertiary schools in and out of
-        the country.
-      </p>
+      <p>Enter OpenEdu Number given to you by your school e.g. HOL-1234-123</p>
       <h2>General Requirements to Access the Checker</h2>
       <ul>
         <li>Full payment of any fees owed to the school</li>
@@ -51,7 +61,14 @@
       <p>
         OpenEdu-GH is a free-to-access portal for students and others willing to
         explore educational materials, tutorials and videos. All resources are
-        provided by OpenEdu to support a new wave of dynamic learning.
+        provided by OpenEdu to support a new wave of dynamic learning. The
+        Checker is a free web app sponsored by openEdu to enable Ghanaian
+        students access end of term results in a simple, efficient and
+        comfortable manner. <br />
+        Our goal is to ensure students have their results stored in one place as
+        a portfolio. This we believe will help to access any type of scores
+        needed in the future such as applying for tertiary schools in and out of
+        the country.
       </p>
       <div class="icons">
         <i class="fa fa-facebook"></i>
@@ -61,5 +78,6 @@
       </div>
       <p>Made with <i class="fa fa-heart-o"></i> by openEdu-GH (Michael)</p>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
