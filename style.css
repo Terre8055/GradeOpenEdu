@@ -27,6 +27,34 @@ nav a {
     color: #fff;
 } */
 
+a {
+    text-decoration: none;
+}
+
+.title {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: auto;
+    border: #777 solid;
+    /* background-color: white; */
+    padding: 12px 34px;
+    font-size: 13px;
+    background: salmon;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.title:hover {
+    border: 1px solid red;
+    background: red;
+    transition: 1s;
+    border-radius: 2px;
+
+}
+
+
 
 .text-box {
     width: 90%;
@@ -174,19 +202,22 @@ ul li:hover::after {
     display: inline-block;
 } */
 
-.Subs {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    size: 50px;
-    height: 100vh;
-    background-color: #777;
-  }
+.homepage {
+    border: none;
+    color: #f44336;
+    display: block;
+    font-weight: bold;
+}
 
-#Sub {
+.Subs{
+    display: grid;
+    place-items: center;    
+}
+
+#Sub1,#Sub2,#Sub3,#Sub4,#Sub5,#Sub6,#Sub7,#Sub8 {
+    margin-bottom: 15px;
+    padding-bottom: 50px;
     width: 300px;
-    height: 40px;
-   
 }
 
 #res {
@@ -210,4 +241,82 @@ ul li:hover::after {
     text-align: center;
     justify-content: center;
 }
+
+.scoreGrab {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(Results.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+    /* Define the animation
+@keyframes loading {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
   
+  Apply the animation to elements with the turnLoad class
+  .turnLoad {
+    animation: loading 1s linear infinite;
+    display: 50vh;
+    width: 100px;
+    height: 100px;
+    background-color: #f44336;
+  } */
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+.spinner {
+    
+    width: 100px;
+    height: 100px;
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    animation: spin 1s ease-in-out infinite;
+  }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+      
+      
+      
+  
+  
+  
+
+
+
+  
+
+/* .testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonial-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: lavenderblush;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+} */

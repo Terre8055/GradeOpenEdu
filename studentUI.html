@@ -18,31 +18,42 @@
     />
   </head>
   <body>
-    <nav>
-      <a href="index.html">HomePage</a>
-    </nav>
-    <div class="Subs">
-      <input type="text" id="Sub1" placeholder="Maths Score" />
-      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
-      <input type="text" id="Sub2" placeholder="Science Score" />
-      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
-      <input type="text" id="Sub3" placeholder="English Language Score" />
-      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
-      <input type="text" id="Sub4" placeholder="Social Score" />
-      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
-      <input type="text" id="Sub5" placeholder="ALT1" />
-      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
-      <input type="text" id="Sub6" placeholder="ALT2" />
-      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
-      <input type="text" id="Sub7" placeholder="ALT3" />
-      <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
-      <input type="text" id="Sub8" placeholder="ALT4" />
-      <!-- <button type="submit" class="hero-btn">Submit</button -->
-      ><br /><br /><br /><br />
-      <button type="button" class="hero-btn" onclick="showGrade()">
-        CHECK RESULTS
-      </button>
-    </div>
+    <section class="scoreGrab">
+      <nav>
+        <a href="index.html"
+          ><p class="title">HOME<i class="bi bi-house"></i></p
+        ></a>
+      </nav>
+      <div class="Subs">
+        <input type="text" id="Sub1" placeholder="Maths Score" class="input" />
+        <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+        <input type="text" id="Sub2" placeholder="Science Score" />
+        <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+        <input type="text" id="Sub3" placeholder="English Language Score" />
+        <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+        <input type="text" id="Sub4" placeholder="Social Score" />
+        <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+        <input type="text" id="Sub5" placeholder="ALT1" />
+        <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+        <input type="text" id="Sub6" placeholder="ALT2" />
+        <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+        <input type="text" id="Sub7" placeholder="ALT3" />
+        <!-- <button type="submit" class="hero-btn">Submit</button><br /> -->
+        <input type="text" id="Sub8" placeholder="ALT4" />
+        <!-- <button type="submit" class="hero-btn">Submit</button -->
+        ><br /><br /><br /><br />
+        <button type="button" class="hero-btn" onclick="showGrade()">
+          CHECK RESULTS
+        </button>
+      </div>
+    </section>
+
+    <section class="animLoad">
+      <div class="spinner-container">
+        <div class="spinner"></div>
+      </div>
+    </section>
+
     <section class="Result-Page">
       <h1>FIND BELOW YOUR RESULTS</h1>
       <p id="res"></p>
