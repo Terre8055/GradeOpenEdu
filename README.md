@@ -1,2 +1,2 @@
 # GradeOpenEdu
-Web Application to enable checking of Grades
+Web Application for checking and calculating grades.
