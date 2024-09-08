@@ -18,6 +18,7 @@ jobs:
       uses: jakejarvis/s3-sync-action@v0.5.0
       with:
         args: --acl public-read --follow-symlinks --delete --exact-timestamps ./build s3://elcam-client/Dev 
+      env:
         AWS_S3_BUCKET: elcam-client
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
