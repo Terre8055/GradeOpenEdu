@@ -10,7 +10,7 @@ function validatePassword() {
     if (password.length == 9) {
       // Navigate to the specified URL if the password is valid
     alert("Student Login Successful");
-    window.location.assign("studentUI.html");
+    window.location.assign("Dev/studentUI.html");
     
     } else {
       // Display an error message if the password is not valid
